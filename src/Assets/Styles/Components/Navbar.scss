@@ -1,0 +1,27 @@
+.nb_ {
+
+    &box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2.5rem;
+    }
+
+    &navlist {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    &listitem {
+        list-style: none;
+    }
+
+    &text_white_color {
+        color: white;
+        cursor: pointer;
+    }
+
+}
