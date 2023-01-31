@@ -1,7 +1,11 @@
 .lo_ {
 
     &box {
-        background-color: black;
+        background-color: $clr_black;
+    }
+
+    &page_layout {
+        padding: 0 100px;
     }
 
 }

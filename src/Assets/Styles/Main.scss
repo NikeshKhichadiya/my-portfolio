@@ -1,3 +1,6 @@
+// Variables
+@import './Variables.scss';
+
 // Libraries
 @import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
 
@@ -9,3 +12,4 @@
 
 // Pages
 @import './Pages/Layout.scss';
+@import './Pages/Home.scss';

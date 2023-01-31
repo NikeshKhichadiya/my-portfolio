@@ -31,6 +31,7 @@
 body {
     font-family: 'roboto-regular';
     font-style: normal;
+    line-height: normal;
 }
 
 *,
@@ -43,4 +44,57 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
+}
+
+.logo {
+    color: $clr_white;
+    position: relative;
+    border: 2px solid $clr_white;
+    transform: rotate(45deg);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
+
+    span {
+        font-size: $fs_md;
+        font-family: roboto-medium;
+        line-height: 1em;
+        transform: rotate(-45deg);
+    }
+
+
+    &:hover {
+        color: $clr_sky;
+        border-color: $clr_sky;
+        background-color: $clr_hov_bg_sky_color;
+        transition: all 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
+    }
+}
+
+.button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $fs_xsm $fs_lg;
+    font-size: $fs_sm;
+    border: 1px solid $clr_sky;
+    border-radius: 4px;
+    outline: none;
+    color: $clr_sky;
+    background-color: $clr_black;
+
+}
+
+.button_sky {
+    background-color: $clr_black;
+    transition: background-color 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
+
+    &:hover {
+        background-color: $clr_hov_bg_sky_color;
+        transition: background-color 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
+    }
 }

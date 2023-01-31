@@ -4,13 +4,26 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 2.5rem;
+        padding: $fs_md $fs_xl_heading;
+        position: fixed;
+        width: 100%;
+        box-shadow: none;
+        transition: box-shadow 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    &scrolled {
+        background-color: rgba(0, 0, 0, 0.97);
+        box-shadow: 0 5px 15px -5px $clr_sky;
+        transition: box-shadow 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
     }
 
     &navlist {
         display: flex;
         align-items: center;
-        gap: 1rem;
+        gap: $fs_sm_heading;
         padding: 0;
         margin: 0;
     }
@@ -20,8 +33,25 @@
     }
 
     &text_white_color {
-        color: white;
+
+        color: $clr_white;
         cursor: pointer;
+        transition: color 0.25s cubic-bezier(0.50, 0.50, 0.50, 0.50);
+        font-size: $fs_sm;
+
+        & span {
+            color: $clr_sky;
+        }
+
+        &:hover {
+            color: $clr_sky;
+            transition: color 0.25s cubic-bezier(0.50, 0.50, 0.50, 0.50);
+        }
+
+    }
+
+    &margin_box {
+        height: 75px;
     }
 
 }

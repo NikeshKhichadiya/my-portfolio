@@ -1,0 +1,31 @@
+:root {
+
+    --color_sky: #67d9fb;
+    --color_white: #fff;
+    --color_black: #000;
+    --fs_xsm: 12px;
+    --fs_sm: 14px;
+    --fs_md: 16px;
+    --fs_lg: 18px;
+    --fs_xl: 20px;
+    --fs_xxl: 22px;
+    --fs_sm_heading: 24px;
+    --fs_heading: 32px;
+    --fs_xl_heading: 40px;
+    --clr_hov_bg_sky_color: #003a626b;
+
+}
+
+$clr_black: var(--color_black);
+$clr_sky: var(--color_sky);
+$clr_white: var(--color_white);
+$fs_xsm: var(--fs_xsm);
+$fs_sm: var(--fs_sm);
+$fs_md: var(--fs_md);
+$fs_lg: var(--fs_lg);
+$fs_xl: var(--fs_xl);
+$fs_xxl: var(--fs_xxl);
+$fs_sm_heading: var(--fs_sm_heading);
+$fs_heading: var(--fs_heading);
+$fs_xl_heading: var(--fs_xl_heading);
+$clr_hov_bg_sky_color: var(--clr_hov_bg_sky_color);

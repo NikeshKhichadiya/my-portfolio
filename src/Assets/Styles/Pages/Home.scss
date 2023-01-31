@@ -1,0 +1,30 @@
+.hm_ {
+
+    &intro {
+
+        padding-top: $fs_xl;
+
+        .line_1 {
+            color: $clr_sky;
+            font-size: $fs_xl;
+            margin-bottom: $fs_heading;
+            font-family: roboto-medium;
+        }
+
+        .line_2 {
+            color: $clr_white;
+            font-size: 70px;
+            font-family: roboto-black;
+        }
+
+        .line_3 {
+            color: $clr_white;
+            font-size: 70px;
+            font-family: roboto-black;
+            opacity: 0.55;
+            margin-bottom: 40px;
+        }
+
+    }
+
+}
