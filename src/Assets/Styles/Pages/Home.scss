@@ -2,27 +2,37 @@
 
     &intro {
 
-        padding-top: $fs_xl;
+        padding-top: $px_20;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-height: calc(100vh - var(--px_80));
+        margin: 0 $px_40;
 
         .line_1 {
             color: $clr_sky;
-            font-size: $fs_xl;
-            margin-bottom: $fs_heading;
-            font-family: roboto-medium;
+            font-size: $px_16;
+            margin-bottom: $px_16;
+            text-transform: uppercase;
         }
 
         .line_2 {
             color: $clr_white;
-            font-size: 70px;
-            font-family: roboto-black;
+            font-size: $px_80;
+            font-family: roboto-medium;
+            margin-bottom: $px_16;
         }
 
         .line_3 {
             color: $clr_white;
-            font-size: 70px;
-            font-family: roboto-black;
+            font-size: $px_80;
+            font-family: roboto-medium;
             opacity: 0.55;
-            margin-bottom: 40px;
+        }
+
+        .line_4 {
+            color: $clr_lt_white;
+            font-size: $px_18;
         }
 
     }

@@ -4,7 +4,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: $fs_md $fs_xl_heading;
+        padding: $px_20 $px_50;
         position: fixed;
         width: 100%;
         box-shadow: none;
@@ -23,7 +23,7 @@
     &navlist {
         display: flex;
         align-items: center;
-        gap: $fs_sm_heading;
+        gap: $px_24;
         padding: 0;
         margin: 0;
     }
@@ -37,10 +37,12 @@
         color: $clr_white;
         cursor: pointer;
         transition: color 0.25s cubic-bezier(0.50, 0.50, 0.50, 0.50);
-        font-size: $fs_sm;
+        font-size: $px_14;
+        text-decoration: none;
 
         & span {
             color: $clr_sky;
+            display: inline-block;
         }
 
         &:hover {
@@ -51,7 +53,7 @@
     }
 
     &margin_box {
-        height: 75px;
+        height: $px_80;
     }
 
 }

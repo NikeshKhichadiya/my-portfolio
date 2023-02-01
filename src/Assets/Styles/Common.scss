@@ -31,7 +31,7 @@
 body {
     font-family: 'roboto-regular';
     font-style: normal;
-    line-height: normal;
+    line-height: 1;
 }
 
 *,
@@ -51,17 +51,16 @@ h6 {
     position: relative;
     border: 2px solid $clr_white;
     transform: rotate(45deg);
-    height: 40px;
-    width: 40px;
+    height: $px_40;
+    width: $px_40;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
 
     span {
-        font-size: $fs_md;
+        font-size: $px_16;
         font-family: roboto-medium;
-        line-height: 1em;
         transform: rotate(-45deg);
     }
 
@@ -79,9 +78,9 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: $fs_xsm $fs_lg;
-    font-size: $fs_sm;
-    border: 1px solid $clr_sky;
+    padding: $px_12 $px_18;
+    font-size: $px_14;
+    border: $px_1 solid $clr_sky;
     border-radius: 4px;
     outline: none;
     color: $clr_sky;
@@ -97,4 +96,31 @@ h6 {
         background-color: $clr_hov_bg_sky_color;
         transition: background-color 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
     }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: $px_6;
+    border-radius: $px_4;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000;
+    border-radius: $px_4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $clr_lt_white;
+    opacity: 0.55;
+    border: $px_2 solid $clr_lt_white;
+    border-radius: $px_4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $clr_lt_white;
+    opacity: 0.55;
+    border-radius: $px_4;
 }

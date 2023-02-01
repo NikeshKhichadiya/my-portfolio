@@ -15,10 +15,6 @@ const Home = () => {
                 I build web applications for you.
             </h2>
 
-            <p className="line_4">
-                I am a full-stack developer. I'v more than 2 years of experience in this feild. I've completed my gradu
-            </p>
-
         </section>
 
     );

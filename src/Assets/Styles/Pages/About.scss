@@ -1,0 +1,36 @@
+.ab_ {
+
+    &box {
+        margin: 0 $px_40;
+        padding-top: $px_100;
+    }
+
+    &heading_box {
+
+        display: flex;
+        align-items: center;
+        margin-bottom: $px_40;
+
+        .heading {
+
+            font-size: $px_32;
+            color: $clr_white;
+            font-family: roboto-medium;
+
+            span {
+                display: inline-block;
+                color: $clr_sky;
+            }
+
+        }
+
+        .line {
+            margin-left: $px_24;
+            width: $px_250;
+            background-color: $clr_lt_white;
+            height: $px_1;
+        }
+
+    }
+
+}

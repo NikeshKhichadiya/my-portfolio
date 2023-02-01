@@ -20,24 +20,24 @@ const Navbar = ({ isScrolled }: any) => {
 
                     <ul className="nb_navlist">
                         <li className="nb_listitem">
-                            <p className="nb_text_white_color">
+                            <a href="#about" className="nb_text_white_color">
                                 <span>01.</span>&nbsp; About
-                            </p>
+                            </a>
                         </li>
                         <li className="nb_listitem">
-                            <p className="nb_text_white_color">
+                            <a href="#experience" className="nb_text_white_color">
                                 <span>02.</span>&nbsp; Experience
-                            </p>
+                            </a>
                         </li>
                         <li className="nb_listitem">
-                            <p className="nb_text_white_color">
+                            <a href="#work" className="nb_text_white_color">
                                 <span>03.</span>&nbsp; Work
-                            </p>
+                            </a>
                         </li>
                         <li className="nb_listitem">
-                            <p className="nb_text_white_color">
+                            <a href="#contact_me" className="nb_text_white_color">
                                 <span>04.</span>&nbsp; Contact Me
-                            </p>
+                            </a>
                         </li>
                         <li className="nb_listitem">
                             <button className="button button_sky">Resume</button>
