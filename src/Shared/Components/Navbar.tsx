@@ -21,26 +21,26 @@ const Navbar = ({ isScrolled }: any) => {
                     <ul className="nb_navlist">
                         <li className="nb_listitem">
                             <a href="#about" className="nb_text_white_color">
-                                <span>01.</span>&nbsp; About
+                                <span>I.</span>&nbsp; About
                             </a>
                         </li>
                         <li className="nb_listitem">
                             <a href="#experience" className="nb_text_white_color">
-                                <span>02.</span>&nbsp; Experience
+                                <span>II.</span>&nbsp; Experience
                             </a>
                         </li>
                         <li className="nb_listitem">
                             <a href="#work" className="nb_text_white_color">
-                                <span>03.</span>&nbsp; Work
+                                <span>III.</span>&nbsp; Work
                             </a>
                         </li>
                         <li className="nb_listitem">
                             <a href="#contact_me" className="nb_text_white_color">
-                                <span>04.</span>&nbsp; Contact Me
+                                <span>IV.</span>&nbsp; Contact Me
                             </a>
                         </li>
                         <li className="nb_listitem">
-                            <button className="button button_sky">Resume</button>
+                            <a className="button button_sky" href={'/Resume.pdf'} target="_blank" rel="noopener noreferrer">Resume</a>
                         </li>
                     </ul>
 

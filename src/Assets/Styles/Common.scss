@@ -85,6 +85,7 @@ h6 {
     outline: none;
     color: $clr_sky;
     background-color: $clr_black;
+    text-decoration: none;
 
 }
 
@@ -94,6 +95,7 @@ h6 {
 
     &:hover {
         background-color: $clr_hov_bg_sky_color;
+        color: $clr_sky;
         transition: background-color 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
     }
 }
@@ -102,12 +104,17 @@ h6 {
 ::-webkit-scrollbar {
     width: $px_6;
     border-radius: $px_4;
+    background-color: $clr_black;
+    border-color: $clr_black;
+    color: $clr_black;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #000;
+    background: $clr_black;
     border-radius: $px_4;
+    border-color: $clr_black;
+    color: $clr_black;
 }
 
 /* Handle */
@@ -123,4 +130,54 @@ h6 {
     background: $clr_lt_white;
     opacity: 0.55;
     border-radius: $px_4;
+}
+
+.section_heading_box {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: $px_40;
+
+    .heading {
+
+        font-size: $px_32;
+        color: $clr_white;
+        font-family: roboto-medium;
+        transition: all 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
+
+        span {
+            display: inline-block;
+            color: $clr_sky;
+        }
+
+        &:hover {
+            color: $clr_sky;
+            transition: all 0.25s cubic-bezier(0.5, 0.5, 0.5, 0.5);
+        }
+
+    }
+
+    .dots {
+        color: $clr_white;
+    }
+
+    .line {
+        background-color: $clr_lt_white;
+        height: $px_1;
+
+        &.right_line {
+            width: $px_250;
+            margin-left: $px_12;
+        }
+
+        &.left_line {
+            width: $px_75;
+            margin-right: $px_12;
+        }
+    }
+
+}
+
+.one_page {
+    min-height: 100vh;
 }

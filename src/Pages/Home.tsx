@@ -12,7 +12,7 @@ const Home = () => {
             </h2>
 
             <h2 className="line_3">
-                I build web applications for you.
+                I am here to build website for you.
             </h2>
 
         </section>
